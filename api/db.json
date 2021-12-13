@@ -1,0 +1,49 @@
+{
+  "transactions": [
+    {
+      "value": "1000",
+      "category": "Salário",
+      "date": "2021-10-02T00:00:00.000Z",
+      "week_day": "sexta-feira",
+      "description": "Primeiro salário dev jr",
+      "type": "credit",
+      "id": 1
+    },
+    {
+      "value": "200",
+      "category": "Contas",
+      "date": "2021-10-06T00:00:00.000Z",
+      "week_day": "terça-feira",
+      "description": "Pagamento conta de energia",
+      "type": "debit",
+      "id": 2
+    },
+    {
+      "value": "125",
+      "category": "Contas",
+      "date": "2021-10-07T00:00:00.000Z",
+      "week_day": "quarta-feira",
+      "description": "Pagamento internet",
+      "type": "debit",
+      "id": 3
+    },
+    {
+      "value": "500",
+      "category": "Venda",
+      "date": "2021-10-11T00:00:00.000Z",
+      "week_day": "domingo",
+      "description": "Venda da TV",
+      "type": "debit",
+      "id": 4
+    },
+    {
+      "value": "150",
+      "category": "PIX",
+      "date": "2021-10-14T00:00:00.000Z",
+      "week_day": "quarta-feira",
+      "description": "Pix de TV a  cabo",
+      "type": "credit",
+      "id": 5
+    }
+  ]
+}

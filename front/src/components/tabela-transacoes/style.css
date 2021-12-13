@@ -1,0 +1,57 @@
+.table-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 27px;
+  padding-right: 27px;
+  width: 964px;
+  height: 58px;
+
+  background: #FAFAFA;
+  box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.line-items {
+  width: 100px;
+}
+
+.container-confirm-delete {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background: #E4F2FD;
+
+    font-family: 'Rubik', sans-serif;
+  
+  }
+
+  
+  .btn-action-confirm {
+    width: 55px;
+    height: 30px;
+  
+    font-size: 11px;
+    color: #FFFFFF;
+    background: #3A9FF1;
+    border-radius: 4px;
+    margin-right: 4px;
+  }
+  
+  .btn-action-delete {
+    width: 55px;
+    height: 30px;
+  
+    font-size: 11px;
+    color: #FFFFFF;
+    background: #FF576B;
+    border-radius: 4px;
+  }
+
+  img {
+    margin-left: 10px;
+  }
