@@ -38,7 +38,7 @@ export function TabelaTransacoes({ transacoes, carregarTransacoes, setAddRegistr
                 <td className="line-items">{transacoes.week_day}</td>
                 <td style={{marginLeft:'20px'}} className="line-items">{transacoes.description}</td>
                 <td style={{marginLeft:'20px'}} className="line-items">{transacoes.category}</td>
-                <td className="line-items" style={transacoes.type === "credit" ? { color: "purple" } : { color: "orange" }}>{transacoes.type === "debit" ? "- " : "+ "}{parseInt(transacoes.value).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</td>
+                <td className="line-items" style={transacoes.type === "credit" ? { color: "green" } : { color: "red" }}>{transacoes.type === "debit" ? "- " : "+ "}{parseInt(transacoes.value).toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</td>
 
                 <td className="line-items">
                     <img className="edit-icon" src={btnEditar} alt="botao-editar" title="Editar" onClick={() => handleEditar(transacoes)} />

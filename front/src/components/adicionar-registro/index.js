@@ -6,7 +6,7 @@ import { ptBR } from 'date-fns/locale';
 import add from 'date-fns/add';
 
 export function AdicionarRegistro({ setAddRegistro, carregarTransacoes, editarTransacao, setEditarTransacao }) {
-    const [valor, setValor] = useState(0);
+    const [valor, setValor] = useState("");
     const [categoria, setCategoria] = useState("");
     const [data, setData] = useState("");
     const [descricao, setDescricao] = useState("");
@@ -89,7 +89,7 @@ export function AdicionarRegistro({ setAddRegistro, carregarTransacoes, editarTr
             return
         }
 
-        setValor(0);
+        setValor("");
         setCategoria("");
         setData("");
         setDescricao("");

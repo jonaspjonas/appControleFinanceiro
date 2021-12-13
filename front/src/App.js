@@ -141,7 +141,7 @@ function App() {
       <header className="container-header">
         <div className="logo">
           <img width="45" height="45" src={logo} alt="Logo" />
-          <h1>Dindin</h1>
+          <h1>Seu Bolso</h1>
         </div>
       </header>
       <div className="home">
@@ -162,11 +162,11 @@ function App() {
                 <span className="txt-resumo">Resumo</span>
                 <div className="in">
                   <span>Entradas</span>
-                  <span style={{ color: "purple" }}>{creditos.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>
+                  <span style={{ color: "green" }}>{creditos.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>
                 </div>
                 <div className="out">
                   <span>Saídas</span>
-                  <span style={{ color: "orange" }}>{debitos.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>
+                  <span style={{ color: "red" }}>{debitos.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>
                 </div>
               </div>
               <div className="balance">
